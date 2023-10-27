@@ -7,12 +7,16 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const App = () => {
 
+  
+
+
+
   // array
   const [items, setItems] = useState( () => {
     const storedItems = localStorage.getItem('items');
     return storedItems ? JSON.parse(storedItems) : [{itemName: 'DeleteThis', isSelected: true}];
     
-});
+  });
 
   const [inputValue, setInputValue] = useState("");
 
