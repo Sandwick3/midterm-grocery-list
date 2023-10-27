@@ -1,0 +1,105 @@
+.appBG {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  background-image: url('your-background-image.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.main {
+
+  
+  outline-style: solid; 
+  outline-width: 2px; 
+  outline-color: #FEC8C8; 
+  margin-top: 7em;
+  background-color: #CCF9DC;
+  width: 300px;
+  height: min-content;
+  border-radius: 10px;
+  justify-content: space-between;
+  padding: 20px;
+  transition: box-shadow .2s ease-in-out;
+  box-shadow: 10px 10px 26px 0px rgba(0, 0, 0, 0.161);
+}
+
+.main:hover {
+  box-shadow: 10px 10px 26px 0px rgba(0, 0, 0, 0.217);
+}
+
+.add-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+  margin-bottom: .3em;
+}
+
+.add-input {
+  
+  border: 1px rgb(255, 48, 48);
+  padding: 5px;
+  width: 100%;
+  outline: 1px;
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+  background-color: #8cad97;
+  box-shadow: 3px 3px 26px 0px rgba(0, 0, 0, 0.194);
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+
+
+.button-add {
+  margin-left: 5px;
+  font-weight: 600;
+  font-size: 11px;
+
+  background-color: #de7272;
+  color: black;
+  transition: box-shadow .2s ease-in-out;
+  box-shadow: 3px 3px 26px 0px rgba(0, 0, 0, 0.089);
+}
+
+.button-add:hover {
+  box-shadow: 4px 4px 26px 0px rgba(0, 0, 0, 0.209);
+}
+
+.button-add:focus {
+  outline: none;
+}
+
+.item-name {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 2em;
+
+}
+
+.item-list {
+  color: #5a585a;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.button-delete {
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 11px;
+
+  background-color: #add2ba;
+  color: #db6969;
+}
+
+.button-delete:focus {
+  outline: none;
+}
+
+
