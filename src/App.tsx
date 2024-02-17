@@ -35,7 +35,7 @@ const App = () => {
     { 
         const newItem = {
           itemName: inputValue,
-          isSelected: false,
+          isSelected: false,``
           
         };    
       const newItems = [...items, newItem];
