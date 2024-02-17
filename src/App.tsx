@@ -137,7 +137,7 @@ const App = () => {
 
         <div>
           <div className="item-list">
-            {items.map((item, index) => (
+          {items.map((item: { isSelected: boolean; itemName: string }, index: number) => (
               <div className="item-container" key={index}>
                 <label className="custom-checkbox">
                   <input
