@@ -8,9 +8,6 @@ import 'react-toastify/dist/ReactToastify.css';
 const App = () => {
 
   
-
-
-
   // array
   const [items, setItems] = useState( () => {
     const storedItems = localStorage.getItem('items');
